@@ -1,0 +1,96 @@
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	top: 0px;
+	position:fixed ;
+	width: 100%;
+}
+p.menu{
+	background-color: rgb(80, 177, 172);
+	margin: 0px;
+}
+nav a{
+	font-size: 1.5rem;
+	color: inherit;
+	text-decoration: none;
+	display: block;
+	padding:10px;
+}
+nav li:hover{
+	background-color: rgb(117, 116, 116);
+	color:white;
+}
+nav > ul{
+	background-color: rgb(218, 218, 218);
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+}
+.flex-nav {
+	display: flex;
+}
+body{
+	background-color: rgb(228, 255, 246);
+	font-family: 'Tisa';
+	font-weight: lighter;
+}
+h1 { 
+	padding-top:30px;
+	text-align: center; 
+	font-size: 60px; 
+	text-shadow: 2px 4px 5px rgb(52, 155, 202) ;
+}
+h1.img{
+	background-image: url(blue-green-watercolor-background-texture-260nw-1757745398.jpg);
+}
+h2 {
+	font-size: 50px;
+	color: rgb(31, 126, 126);
+}
+p {
+	font-size: 20px;
+	font-family: "Times New Roman";
+}
+ul {
+	list-style: disc;
+}
+li {
+	font-size: 20px;
+	font-family: "Times New Roman";
+	padding:5px;
+}
+
+div.txt{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+p.bot{
+	padding-bottom: 150px;
+}
+figure{
+  float:right;
+  text-align: center;
+  text-indent: 0;
+  margin: 0.5em;
+  padding-right: 20%;
+  padding-left:100%;
+}
+img{
+	float: right;
+}
+h3{
+	font-size:60px;
+	font-family:Arial ;
+	font-weight: normal;
+	background-color: rgb(211, 209, 209);
+	font-family: "tisa";
+	margin: 0px;
+	width:100%;
+	
+}
+p.bot{
+	background-color: rgb(211, 209, 209);
+	margin: 0px;
+	width:100%;
+}
